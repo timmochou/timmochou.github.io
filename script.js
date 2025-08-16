@@ -1,6 +1,6 @@
 var typingText = document.querySelector('.text2');
 var myArray = 
-["Data Analyst", "Passionate Learner", "Sports Enthusiast"];
+["Students of NYU Information Systems", "Data Analytics Specialist", "Digital Transformation Engineer", "Full Stack Developer", "Innovation & Technology Enthusiast"];
 var arrayIndex = 1;
 
 function textReplace(){

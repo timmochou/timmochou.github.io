@@ -727,6 +727,17 @@ section.projects{
     height: 300px;  
 	border: 2px solid white; 
 }
+
+.phone-screenshot{
+    width: 250px !important;        /* 手机截图的宽度 */
+    height: 500px !important;       /* 固定高度，形成长条型 */
+    object-fit: cover !important;   /* 覆盖模式，保持比例但可能裁剪 */
+    border: 2px solid white !important; 
+    border-radius: 12px !important; /* 圆角边框 */
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1) !important; /* 添加阴影效果 */
+    display: block !important;      /* 块级元素 */
+    margin: 0 auto !important;     /* 水平居中 */
+}
 .projects-contents .projects-post .post-date{
 	padding: 15px 0px;
 }
